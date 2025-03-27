@@ -25,6 +25,7 @@ TagSweep CLI solves these issues with simple, efficient shell scripts.
 git clone https://github.com/your-repo/tagsweep-cli.git
 cd tagsweep-cli
 chmod +x *.sh
+```
 
 Requirements
 macOS or Linux (Windows users can run via WSL)
@@ -33,11 +34,11 @@ EXIFTool (for metadata operations)
 
 jq (for JSON parsing)
 
-Install dependencies using:
+### Install dependencies using:
 brew install exiftool jq  # For macOS (requires Homebrew)
 sudo apt install libimage-exiftool-perl jq  # For Ubuntu/Linux
 
-Usage
+### Usage
 Navigate to your Takeout directory and run the appropriate script.
 
 1. Rename JSON Files
@@ -64,7 +65,7 @@ Organizes JSON files into a JSON folder, keeping your media directory clean.
 ./organize_json.sh
 Moves all .json files into JSON/ for easier management.
 
-License & Contributions
+### License & Contributions
 TagSweep CLI is released under GNU General Public License v3.0. You’re free to modify and contribute.
 
-For support, contact hello@melvin-anthony.com.
+To support you can help me by visit my patreon page at https://patreon.com/melvin_anthony or contact me at hello@melvin-anthony.com
