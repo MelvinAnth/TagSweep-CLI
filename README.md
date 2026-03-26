@@ -69,3 +69,4 @@ Moves all .json files into JSON/ for easier management.
 TagSweep CLI is released under GNU General Public License v3.0. You’re free to modify and contribute.
 
 To support you can help me by visit my patreon page at https://patreon.com/melvin_anthony or contact me at hello@melvin-anthony.com
+This is currently getting built using Claude by Anthropic.
